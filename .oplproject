@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="MVRP" category="opl">
+			<ref name="MultipleVehicleRoutingProblem.mod" type="model">
+			</ref>
+			<ref name="MultipleVehicleRoutingProblem.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="VRP" category="opl">
+			<ref name="VRP.mod" type="model">
+			</ref>
+			<ref name="VRP.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
